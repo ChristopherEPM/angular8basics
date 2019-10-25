@@ -3,11 +3,7 @@ import { Component } from '@angular/core';
 // realizamos binding por interpolación,(interpolar, mostrar un dato, unir propiedad)
 @Component({
     selector: 'first-component',
-    template: `
-        <h1>{{titulo}}</h1>
-        <h2>{{year}}</h2>
-        <p>{{comentario}}</p>
-    `
+    templateUrl: './first-component.component.html'
 })
 
 export class FirstComponent{
